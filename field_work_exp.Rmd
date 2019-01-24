@@ -1,0 +1,71 @@
+---
+title: "Research meeting"
+subtitle: "Obs paper and project updates"
+author: "Cyrus Elahi"
+date: "01/21/2019"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/sfah.css", "css/fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+class: left, bottom, inverse
+background-image: url(https://user-images.githubusercontent.com/32182343/51690972-d2607300-1fc7-11e9-95ff-7f40d539d0b3.png)
+background-size: cover
+
+#Field Work 2018
+
+### .fancy[TBI Decision Support Tool]
+
+.large[Cyrus Elahi | DGNN | `r Sys.Date()`]
+
+<img src="https://user-images.githubusercontent.com/32182343/51692967-fb830280-1fcb-11e9-9880-babee687d275.PNG" width="100px"/>
+
+
+---
+
+#Agenda
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+--
+
+### Observational Study
+
+--
+
+### Updates
+
+---
+class: center, middle, inverse
+
+# Observational Study
+
+---
+#Why are we here
+
+
+Presented at DGNN - questions regarding clinical validity
+
+--
+
+Suggested changes: 
+
+--
+
+- Zero admission date (non-surg pts) with surgery date (surg pts) 
+
+--
+
+- Use adm GCS for non-surgery and pre-surgery GCS for surgery patients
+
+---
